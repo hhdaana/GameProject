@@ -11,4 +11,9 @@ public class Startgame : MonoBehaviour
     {
         SceneManager.LoadScene(LevelName);
     }
+
+    public void LoadBackTo()
+    {
+        SceneManager.LoadScene(LevelName);
+    }
 }
