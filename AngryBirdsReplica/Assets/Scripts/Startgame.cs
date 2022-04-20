@@ -9,6 +9,7 @@ public class Startgame : MonoBehaviour
 
     public void LoadLevel()
     {
+        Debug.Log("" + LevelName);
         SceneManager.LoadScene(LevelName);
     }
 
