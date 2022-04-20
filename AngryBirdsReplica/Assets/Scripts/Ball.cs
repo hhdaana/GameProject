@@ -56,6 +56,7 @@ public class Ball : MonoBehaviour {
 			nextBall.SetActive(true);
 		} else
 		{
+			yield return new WaitForSeconds(5f);
 			Enemy.EnemiesAlive = 0;
 			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 		}
